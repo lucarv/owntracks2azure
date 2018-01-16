@@ -1,0 +1,26 @@
+[
+    {
+        "DeviceID": "DL",
+        "cs": "HostName=Integration-Duga-IOT.azure-devices.net;DeviceId=Daniel;SharedAccessKey=sQ2Au0U8Xy5U/xxgPVL91OJzvutEv1V5Cin90z04OOk="
+    },
+    {
+        "DeviceID": "JL",
+        "cs": "HostName=Integration-Duga-IOT.azure-devices.net;DeviceId=Jacob;SharedAccessKey=T+cPUCg3f0JLa5vQvwYX7JSRlavX69vNi4Ecl/IzGvE="
+    },
+    {
+        "DeviceID": "JG",
+        "cs": "HostName=Integration-Duga-IOT.azure-devices.net;DeviceId=Jocke;SharedAccessKey=PIQrjT+bG7jfCFve7H9i/SfmKmv6MOVxwQfEz4Xfv9w="
+    },
+    {
+        "DeviceID": "JS",
+        "cs": "HostName=Integration-Duga-IOT.azure-devices.net;DeviceId=Johan;SharedAccessKey=ZlQf34zd1NMYFHYvVca1UOwim0feqVUG4VKRwHjIP1g="
+    },
+    {
+        "DeviceID": "EN",
+        "cs": "HostName=Integration-Duga-IOT.azure-devices.net;DeviceId=Erik;SharedAccessKey=r0gBwM6GOO8z7FSX5+m/9RDInvzN9oJ0rN+B3CIWCmE="
+    },
+    {
+        "DeviceID": "TC",
+        "cs": "HostName=luca-cws-iothub.azure-devices.net;DeviceId=pypaho;SharedAccessKey=WVAdyXaHmyqwXxIhNrbwKpvYiIAgyqQC9Om31s7Ew+s="
+    }
+]

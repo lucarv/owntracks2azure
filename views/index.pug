@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  .panel.panel-default.panel-modest
+    .panel-heading #{title}
+    .panel-body    
+      p MQTT Message Counter: #{ mqtt }
+      p Last Publisher: #{ pub }
