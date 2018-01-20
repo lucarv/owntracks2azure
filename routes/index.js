@@ -20,7 +20,6 @@ var Client = require('azure-iot-device').Client;
 var clients = [];
 for (var i = 0; i < devices.length; i++) {
         cs = devices[i].cs
-        console.log('device:' + devices[i].DeviceID)
         var client = clientFromConnectionString(cs);
         clients.push({"DeviceID": devices[i].DeviceID, "client": client})
 }
@@ -49,7 +48,6 @@ mclient.on('message', function (topic, message) {
     var msg = message.toString();
     var tid = JSON.parse(msg).tid;
     var timestamp = new Date(JSON.parse(msg).tst);
-    console.log('message from: ' + tid + ' at: ' + timestamp)
 
     for (var i = 0; i < clients.length; i++) { 
         if (clients[i].DeviceID === tid) {  // choose client to send
@@ -65,7 +63,6 @@ mclient.on('message', function (topic, message) {
                     if (res) {
                         lastHub = new Date();
                         console.log('sent at: ' + lastHub)
-                        console.log('result: ' + JSON.stringify(res))
                     }
                 }
             })
